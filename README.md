@@ -40,6 +40,8 @@ imod2relion -h
 
 ### Using this tool to generate star file for RELION
 
+## Conventions
+
 ## License
 
 The project is released under the BSD 3-Clause License
