@@ -37,14 +37,14 @@ def eulerangle(x1,x2,y1,y2,z1,z2):
     y = y2 - y1
     z = z2 - z1
     if x == 0:
-        phi = np.pi / 2
+        psi = np.pi / 2
     else:
-        phi = np.arctan2(y, x)
+        psi = np.arctan2(-y, x) + np.pi
     if z == 0:
         theta = np.pi / 2
     else:
         theta = np.arctan2(np.sqrt(x ** 2 + y ** 2), z)
-    psi = 0
+    phi = 0
     phi = np.rad2deg(phi)
     theta = np.rad2deg(theta)
     psi = np.rad2deg(psi)
