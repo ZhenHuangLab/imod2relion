@@ -66,6 +66,8 @@ imod2relion --input /path/to/txt_files --output /path/to/star/file.star --binnin
 
 ## Conventions
 
+The conventions used in this script, especially the calculation of Euler angles, are consistent with those used in [RELION](https://relion.readthedocs.io/en/release-3.1/Reference/Conventions.html) and in [Heymann, Chagoyen and Belnap (2005) standard](https://doi.org/10.1016/j.jsb.2005.06.001).
+
 ## License
 
 The project is released under the BSD 3-Clause License
